@@ -1,0 +1,17 @@
+.analyticsPage {
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.statsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .statsContainer {
+    grid-template-columns: 1fr;
+  }
+}

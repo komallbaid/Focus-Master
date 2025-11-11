@@ -1,0 +1,86 @@
+/* Variables */
+:root {
+  --primary: #6c5ce7;
+  --primary-dark: #5649c0;
+  --secondary: #a29bfe;
+  --dark: #2d3436;
+  --light: #f5f6fa;
+  --gray: #dfe6e9;
+  --success: #00b894;
+  --danger: #d63031;
+  --warning: #fdcb6e;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.2s ease;
+}
+
+/* App Layout */
+.app-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+  padding: 1rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Shared Components */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 1.5rem;
+}
+
+.dark .card {
+  background: #2d3436;
+  color: white;
+}
+
+/* Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  background: white;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+.dark .bottom-nav {
+  background: #2d3436;
+  border-top: 1px solid #3c4245;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.dark .nav-item {
+  color: #b2bec3;
+}
+
+.nav-item.active {
+  color: var(--primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-content {
+    padding: 0.5rem;
+  }
+}

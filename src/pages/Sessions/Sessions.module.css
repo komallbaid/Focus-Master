@@ -1,0 +1,45 @@
+.sessionsPage {
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.sessionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.sessionCard {
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(108, 92, 231, 0.1);
+  text-align: center;
+}
+
+.sessionCard h3 {
+  margin: 0 0 0.5rem;
+  color: var(--primary);
+}
+
+.sessionCard p {
+  margin: 0 0 1rem;
+  color: var(--dark);
+}
+
+.sessionCard button {
+  padding: 0.5rem 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark .sessionCard {
+  background: rgba(108, 92, 231, 0.2);
+}
+
+.dark .sessionCard p {
+  color: white;
+}

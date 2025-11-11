@@ -1,0 +1,19 @@
+.socialPage {
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.friendsList {
+  margin-top: 1rem;
+}
+
+.friendItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.dark .friendItem {
+  border-bottom-color: #3c4245;
+}
