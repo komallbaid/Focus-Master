@@ -1,12 +1,60 @@
-# React + Vite
+# Focus Master – Productivity Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Focus Master is a productivity web application built with React, TypeScript, and TailwindCSS. It integrates a Pomodoro timer, task management workflow, and progress analytics to support structured work cycles and help users improve their daily productivity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pomodoro timer for focused work and break intervals  
+- Task management: add, edit, delete, and mark tasks as complete  
+- Progress analytics dashboard showing productivity trends  
+- Responsive and accessible UI for seamless experience on all devices  
+- Accessibility features like keyboard navigation and color contrast improvements
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18+ with functional components and hooks  
+- TypeScript for static typing and improved code quality  
+- TailwindCSS for utility-first, responsive styling  
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 14+  
+- npm or yarn package manager  
+
+### Installation
+
+Clone the repo
+
+```
+git clone https://github.com/yourusername/focus-master.git
+cd focus-master
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run the development server
+
+```
+npm run dev
+```
+
+
+Open `http://localhost:5173` in your browser to view the app.
+
+## Usage
+
+- Use the Pomodoro timer to start and manage focused work sessions  
+- Add and organize tasks in your daily workflow  
+- Track your progress on the analytics dashboard  
+
+## Contribution
+
+Contributions and suggestions are welcome! Feel free to open issues or submit pull requests.
+
+
